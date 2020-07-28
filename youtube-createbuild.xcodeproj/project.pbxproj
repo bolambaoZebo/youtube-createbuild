@@ -13,6 +13,8 @@
 		BC738C7724CFC28F00AA0ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC738C7524CFC28F00AA0ACA /* Main.storyboard */; };
 		BC738C7924CFC29100AA0ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC738C7824CFC29100AA0ACA /* Assets.xcassets */; };
 		BC738C7C24CFC29100AA0ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC738C7A24CFC29100AA0ACA /* LaunchScreen.storyboard */; };
+		BCF7B35824D0D1FD007B04F3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7B35724D0D1FD007B04F3 /* Constant.swift */; };
+		BCF7B35A24D0D26E007B04F3 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7B35924D0D26E007B04F3 /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC738C7824CFC29100AA0ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC738C7B24CFC29100AA0ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC738C7D24CFC29100AA0ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF7B35724D0D1FD007B04F3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BCF7B35924D0D26E007B04F3 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BC738C7824CFC29100AA0ACA /* Assets.xcassets */,
 				BC738C7A24CFC29100AA0ACA /* LaunchScreen.storyboard */,
 				BC738C7D24CFC29100AA0ACA /* Info.plist */,
+				BCF7B35924D0D26E007B04F3 /* ConstantsTemplate.swift */,
+				BCF7B35724D0D1FD007B04F3 /* Constant.swift */,
 			);
 			path = "youtube-createbuild";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				BC738C7424CFC28F00AA0ACA /* ViewController.swift in Sources */,
 				BC738C7024CFC28F00AA0ACA /* AppDelegate.swift in Sources */,
 				BC738C7224CFC28F00AA0ACA /* SceneDelegate.swift in Sources */,
+				BCF7B35824D0D1FD007B04F3 /* Constant.swift in Sources */,
+				BCF7B35A24D0D26E007B04F3 /* ConstantsTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
